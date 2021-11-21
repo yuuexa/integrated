@@ -177,15 +177,6 @@
     font-size: 14px;
     padding-top: 50px;
 }
-.main li:hover,.attention li:hover {
-    transform:scale(1.01);
-    opacity: 0.75;
-    transition: all 0.3s;
-}
-.main a,.attention li a {
-    text-decoration: none;
-    color: #16160e;
-}
 ::-webkit-scrollbar {
     width: 10px;
 }
