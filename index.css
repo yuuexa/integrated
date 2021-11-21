@@ -123,3 +123,12 @@ a {
     background: #badcad;
     text-align: center;
 }
+.main li:hover,.ok li:hover,.attention li:hover {
+    transform:scale(1.01);
+    opacity: 0.75;
+    transition: all 0.3s;
+}
+.main a,.ok a,.attention li a {
+    text-decoration: none;
+    color: #16160e;
+}
