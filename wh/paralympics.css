@@ -1,31 +1,8 @@
 .main {
-    margin-top: 90px;
+    margin-top: 145px;
 }
-.main h2 {
-    position: relative;
-    padding: 0.5em 0.6em;
-    background: #f4f4f4;
-    border-left: solid 5px #7db4e6;
-    border-bottom: solid 3px #d7d7d7;
-    font-size: 20px;
-    width: 40%;
-}
-.main h3 {
-    position: relative;
-    margin-top: 14px;
-    border-bottom: solid 4px #d7d7d7;
-    font-size: 19px;
-    width: 30%;
-}
-.main p {
-    font-size: 16px;
-    margin-top: 2px;
-    letter-spacing: 0.3px;
-    line-height: 24px;
-    font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
-}
-.main div {
-    margin-top: 60px;
+.main-image img {
+    width: 75%;
 }
 .difference img {
     width: 400px;
@@ -49,7 +26,6 @@
 .value-sub {
     display: flex;
 }
-
 table {
     border-collapse: collapse;
     margin-top: 25px;

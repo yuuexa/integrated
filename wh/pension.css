@@ -1,0 +1,23 @@
+.main-image img {
+    width: 15%;
+}
+.summarize-box {
+    width: 75%;
+    margin: 5px;
+    background: #f3f3f3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.summarize-box .box-title {
+    font-size: 20px;
+    background: #e5abbe;
+    padding: 4px;
+    text-align: center;
+    color: #f8fbf8;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.summarize-box p {
+    padding: 15px 20px 15px 50px;
+    font-size: 17px;
+    margin: 0;
+}
