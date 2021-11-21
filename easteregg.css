@@ -1,0 +1,41 @@
+.btn,
+a.btn,
+button.btn {
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 5px 4px 4px 29px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #f3f3f2;
+  border-radius: 0.5rem;
+  background: url("./images/easteregg/核マーク.png") no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+a.btn--red.btn--border-inset {
+  border: 3px inset #ba2636;
+  background-color: #d7003a;
+}
+a.btn-red:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: -3px 5px 0 0;
+}
+.esegg-1 {
+  text-align: right;
+  margin-bottom: 0px;
+}

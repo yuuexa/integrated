@@ -171,6 +171,12 @@
     height: 150px;
     background-color: #1c305c;
 }
+.footer p {
+    text-align: center;
+    color: #f8fbf8;
+    font-size: 14px;
+    padding-top: 50px;
+}
 .main li:hover,.attention li:hover {
     transform:scale(1.01);
     opacity: 0.75;

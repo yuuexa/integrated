@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="common.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="easteregg.css">
         <title>総合的な学習</title>
     </head>
     <body>
         <div id="splash">
             <h1>総合的な学習</h1>
-            <div id="splash_text">Loading...</div>
+            <div id="splash_text">Loading...<br>音が鳴る場合があります。</div>
         </div>
         <div class="header">
             <div class="container">
@@ -60,9 +61,6 @@
                         <a><li>情報を守る</li></a>
                         <a><li>AIと情報</li></a>
                         <a><li>*地域と地域をつなぐ情報</li></a>
-                        <a><li>BOX</li></a>
-                        <a><li>BOX</li></a>
-                        <a><li>BOX</li></a>
                     </ul>
                 </div>
                 <h3><span>福祉・健康</span></h3>
@@ -72,8 +70,6 @@
                         <a><li>点字の歴史</li></a>
                         <a><a href="wh/paralympics.html"><li>東京パラリンピックについて</li></a>
                         <a><li>*年金</li></a>
-                        <a><li>BOX</li></a>
-                        <a><li>BOX</li></a>
                     </ul>
                 </div>
                 <h3><span>平和</span></h3>
@@ -82,16 +78,22 @@
                         <a><li>戦争と平和</li></a>
                         <a><li>人権</li></a>
                         <a><li>平和を願う歌</li></a>
-                        <a><li>BOX</li></a>
-                        <a><li>BOX</li></a>
-                        <a><li>BOX</li></a>
+                        <a href="./sounds/お母さん.mp4"><li>&#0060;&#0060;&#9632; お母さん &#9632;&#0062;&#0062;</li></a>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer">
-
+            <p>&copy; 2021 Yuu<br>
+                本サイトを構成するすべての資料についてのすべての権利、権原、権益は本サイト運営者および第三者のライセンス許諾者に帰属します。</p>
+            <div class="esegg-1">
+                <a href="./images/easteregg/qoo.png" class="btn btn--red btn--border-inset" onclick="sound()">キケン！！</a>
+                <audio id="sound" preload="auto">
+                    <source src="/sounds/レーザー.mp3" type="audio/mp3">
+                </audio>
+            </div>
         </div>
+
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
         <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -102,5 +104,6 @@
         <script src="./codes/splash.js"></script>
         <script src="codes/navigation.js"></script>
         <script src="codes/part.js"></script>
+        <script src="./codes/sound.js"></script>
     </body>
 </html>
