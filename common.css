@@ -194,3 +194,36 @@
 mark {
     background: linear-gradient(transparent 70%, #e5abbe 0%);
 }
+#command {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+#command input[type=text] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+	padding: 0.3em;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+}
+#command input[type=text]:focus {
+	border-color: #da3c41;
+}
+#command input[type=text] {
+	padding-left: 40px;
+}
+#command i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	padding: 9px 8px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+#command input[type=text]:focus + i {
+	color: #da3c41;
+}
