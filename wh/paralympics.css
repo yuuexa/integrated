@@ -12,7 +12,6 @@
     margin-left: 90px;
 }
 .value-box {
-    width: 62%;
     color: #16160e;
     background: #fde8d0;
     border-top: solid 2.5px #5b7e91;
@@ -22,6 +21,7 @@
     font-size: 14px;
     letter-spacing: 1.5px;
     line-height: 32px;
+    padding: 5px 8px 4px 5px;
 }
 .value-sub {
     display: flex;
