@@ -196,8 +196,9 @@ mark {
 }
 #command {
 	position: relative;
-	width: 80%;
+	width: 45%;
 	margin: 40px 3%;
+	text-align: center;
 }
 #command input[type=text] {
 	font: 15px/24px sans-serif;
